@@ -69,15 +69,15 @@ $(document).ready(function(){
 	// Parse and use the weather values from the forecast.io JSON
 	function parseWeather(data) {
 		
-		$('#temp').text("" + Math.round(data.currently.apparentTemperature));
+		$('#temp').text("" + Math.round(data.currently.apparentTemperature)+ "F");
 		
 
 
-		$('#temp_1').text("" + Math.round(data.daily.data[0].temperatureMax));
+		$('#temp_1').text("" + Math.round(data.daily.data[0].temperatureMax)+ "F");
 
-		$('#temp_2').text("" + Math.round(data.daily.data[1].temperatureMax));
+		$('#temp_2').text("" + Math.round(data.daily.data[1].temperatureMax)+ "F");
 
-		$('#temp_3').text("" + Math.round(data.daily.data[2].temperatureMax));
+		$('#temp_3').text(Math.round(data.daily.data[2].temperatureMax) + "F");
 		
 		$('#hum').text((data.currently.humidity)*100 + "%" );
 
