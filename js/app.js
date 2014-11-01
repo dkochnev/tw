@@ -79,7 +79,7 @@ $(document).ready(function(){
 
 		$('#temp_3').text("" + Math.round(data.daily.data[2].temperatureMax));
 		
-		
+		$('#hum').text((data.currently.humidity)*100 + "%" );
 
 	}
 
