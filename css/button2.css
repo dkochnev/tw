@@ -6,7 +6,7 @@
     border-radius:50%;
     display:block;
     margin:0px;
-    float:left;
+    float:center;
     background:rgba(255, 61, 125, 0.6);
     position:relative;
     -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
@@ -19,12 +19,6 @@
 }
 
 
-        .a-btn span:link {    color: #FFf;}
-    .a-btn span:visited {    color: #fff;}
-    .a-btn span:hover {    color: #fff;}
-.a-btn span:active {    color: #fff;}
-
-
 .a-btn span{
     display:table-cell;
     width:110px;
@@ -34,9 +28,10 @@
     text-decoration: none;
     vertical-align:middle;
     font-size:62px;
+    line-height:0px;
     color:#fff;
-    text-shadow:0px 1px 1px #A03F16;
-    font-family:"Arvo", "Myriad Pro", "Trebuchet MS", sans-serif;
+    text-shadow:0px 1px 1px #660033;
+    font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
     -webkit-transition:all 0.3s linear;
     -moz-transition:all 0.3s linear;
     -o-transition:all 0.3s linear;
@@ -44,7 +39,7 @@
 }
 .a-btn span:nth-child(1), 
 .a-btn span:nth-child(3){
-    position:absolute;
+    position:fixed;
     top:0px;
     left:0px;
     text-decoration: none;
@@ -58,10 +53,10 @@
 }
 .a-btn:hover{
     background:#ff3d7d;
-    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 7px #fff,  1px 4px 5px 8px rgba(188, 188, 188, 0.6), 0px 0px 0px 9px #fff;
-    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  1px 4px 5px 8px rgba(188, 188, 188, 0.6), 0px 0px 0px 9px #fff;
-    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 5px #fff,  1px 4px 5px 8px rgba(188, 188, 188, 0.6), 0px 0px 0px 9px #fff;
-}
+   -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
 .a-btn:hover span:nth-child(3){
     opacity:1;
 }
@@ -77,10 +72,10 @@
     animation:rotate 1s linear;
 }
 .a-btn:active{
-    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 7px #fff,  0px -1px 0px 8px rgba(188, 188, 188, 0.3), 0px 0px 0px 10px #fff;
-    -moz-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 7px #fff,  0px -1px 0px 8px rgba(188, 188, 188, 0.3), 0px 0px 0px 10px #fff;
-    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 7px #fff,  0px -1px 0px 8px rgba(188, 188, 188, 0.3), 0px 0px 0px 10px #fff;
-}
+ -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
 .a-btn:active span:nth-child(2){
     color:rgba(170, 77, 27, 0.8);
     text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
@@ -131,16 +126,25 @@
     -o-transition:all 0.3s linear;
     transition:all 0.3s linear;
 }
-.b-btn span:nth-child(1), 
-.b-btn span:nth-child(3){
-    position:absolute;
+.b-btn span:nth-child(1){
+    position:fixed;
     top:0px;
+    left:0px;
+    text-decoration: none;
+     opacity:0;
+}
+
+.b-btn span:nth-child(3){
+position:fixed;
+    top:-5px;
     left:0px;
     text-decoration: none;
     font-size:24px;
     line-height:0px;
     opacity:0;
 }
+
+
 .b-btn span:nth-child(1){
     background:transparent url(../images/star_s.png) no-repeat center center;
     opacity:0.3;
@@ -172,12 +176,15 @@
 }
 .b-btn:active span:nth-child(2){
     color:rgba(170, 77, 27, 0.8);
+
     text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+
 }
 .b-centered {
  position: fixed;
   top: 70%;
   left: 25%;
+
   transform: translate(-50%, -50%);
 }
 
@@ -221,16 +228,25 @@
     -o-transition:all 0.3s linear;
     transition:all 0.3s linear;
 }
-.c-btn span:nth-child(1), 
-.c-btn span:nth-child(3){
+.c-btn span:nth-child(1){
     position:absolute;
     top:0px;
     left:0px;
-   text-decoration: none;
+    line-height:0px;
+    opacity:0;
+}
+
+.c-btn span:nth-child(3){
+position:fixed;
+    top:-5px;
+    left:0px;
+    text-decoration: none;
     font-size:24px;
     line-height:0px;
     opacity:0;
 }
+
+
 .c-btn span:nth-child(1){
     background:transparent url(../images/star_s.png) no-repeat center center;
     opacity:0.3;
@@ -314,16 +330,24 @@
     -o-transition:all 0.3s linear;
     transition:all 0.3s linear;
 }
-.d-btn span:nth-child(1), 
-.d-btn span:nth-child(3){
+.d-btn span:nth-child(1){
     position:absolute;
     top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.d-btn span:nth-child(3){
+position:fixed;
+    top:-5px;
     left:0px;
     text-decoration: none;
     font-size:24px;
     line-height:0px;
     opacity:0;
 }
+
 .d-btn span:nth-child(1){
     background:transparent url(../images/star_s.png) no-repeat center center;
     opacity:0.3;
