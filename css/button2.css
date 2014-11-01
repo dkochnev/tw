@@ -498,6 +498,204 @@ position:fixed;
 
 
 
+/*    ======= for Time ==========        */
+
+.f-btn{
+    width:200px;
+    height:200px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    margin:0px;
+    float:center;
+    background:rgba(143, 209, 0, 0.6);
+    position:relative;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+
+
+.f-btn span{
+    display:table-cell;
+    width:160px;
+    height:160px;
+    padding:20px;
+    text-align:center;
+    text-decoration: none;
+    vertical-align:middle;
+    font-size:72px;
+    line-height:0px;
+    color:#d7d7d7;
+    text-shadow:0px 1px 1px #A03F16;
+    font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.f-btn span:nth-child(1){
+    position:fixed;
+    top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.f-btn span:nth-child(3){
+position:fixed;
+    top:15px;
+    left:0px;
+    text-decoration: none;
+    font-size:72px;
+    line-height:0px;
+    opacity:0;
+}
+.f-btn span:nth-child(1){
+    background:transparent url(../images/star_b.png) no-repeat center center;
+    opacity:0.3;
+}
+.f-btn:hover{
+    background:#8fd100;
+   -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.f-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.f-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.f-btn:hover span:nth-child(1){
+    -webkit-animation:rotate 1s linear;
+    -moz-animation:rotate 1s linear;
+    animation:rotate 1s linear;
+}
+.f-btn:active{
+ -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.f-btn:active span:nth-child(2){
+    color:rgba(170, 77, 27, 0.8);
+    text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.f-centered {
+ position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*    ======= for Date ==========        */
+
+.g-btn{
+    width:200px;
+    height:200px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    display:block;
+    margin:0px;
+    float:center;
+    background:rgba(210, 216, 32, 0.6);
+    position:relative;
+    -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+
+
+.g-btn span{
+    display:table-cell;
+    width:160px;
+    height:160px;
+    padding:20px;
+    text-align:center;
+    text-decoration: none;
+    vertical-align:middle;
+    font-size:72px;
+    line-height:0px;
+    color:#d7d7d7;
+    text-shadow:0px 1px 1px #A03F16;
+    font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.g-btn span:nth-child(1){
+    position:fixed;
+    top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.g-btn span:nth-child(3){
+position:fixed;
+    top:15px;
+    left:0px;
+    text-decoration: none;
+    font-size:72px;
+    line-height:0px;
+    opacity:0;
+}
+.g-btn span:nth-child(1){
+    background:transparent url(../images/star_b.png) no-repeat center center;
+    opacity:0.3;
+}
+.g-btn:hover{
+    background:#d2d820;
+   -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.g-btn:hover span:nth-child(3){
+    opacity:1;
+}
+.g-btn:hover span:nth-child(2){
+    opacity: 0; 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.g-btn:hover span:nth-child(1){
+    -webkit-animation:rotate 1s linear;
+    -moz-animation:rotate 1s linear;
+    animation:rotate 1s linear;
+}
+.g-btn:active{
+ -webkit-box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+    box-shadow:0px 0px 5px 0px rgba(246, 212, 163, 0.5) inset, 0px -1px 5px 4px rgba(170, 77, 27, 0.2) inset, 0px 0px 0px 10px #fff,  0px 0px 1px 8px rgba(188, 188, 188, 0.4), 0px 0px 0px 11px #fff;
+  }
+.g-btn:active span:nth-child(2){
+    color:rgba(170, 77, 27, 0.8);
+    text-shadow:0px 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.g-centered {
+ position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 @keyframes rotate{
     0% { transform: scale(1) rotate(0);}

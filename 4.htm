@@ -26,17 +26,14 @@
 <link rel="apple-touch-icon" sizes="120x120" href="images/app_icon120.png">
 <link rel="apple-touch-icon" sizes="152x152" href="images/app_icon152.png">
 
-
-
-<link rel="stylesheet" type="text/css" href="css/button4.css">
+<link rel="stylesheet" type="text/css" href="css/button2.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
     
 
 
 
 
-
-<title>weather</title>
+<title>time</title>
 
 
 
@@ -55,20 +52,18 @@
 				
     <div class="content">
         <div class="button-wrapper">
-          <a href="#" class="a-btn a-centered " style="text-decoration:none">
+          <a href="#" class="f-btn f-centered " style="text-decoration:none">
                         <span></span>
                           <span >GET</span>
-                            <span> <div id="myTime"></div></span>
+                            <span> <p id="myTime"></p></span>
           </a>          
  
 
 <script>
-var myVar=setInterval(function(){myTimer()},1000);
+  var dt = new Date();
+  document.getElementById("myTime").innerHTML = dt.getHours() + ":" + dt.getMinutes();
 
-function myTimer() {
-    var d = new Date();
-    document.getElementById("myTime").innerHTML = d.toLocaleTimeString();
-}
+
 </script>
 
 
