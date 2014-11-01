@@ -37,10 +37,17 @@
     -o-transition:all 0.3s linear;
     transition:all 0.3s linear;
 }
-.a-btn span:nth-child(1), 
-.a-btn span:nth-child(3){
+.a-btn span:nth-child(1){
     position:fixed;
     top:0px;
+    left:0px;
+    line-height:0px;
+    opacity:0;
+}
+
+.a-btn span:nth-child(3){
+position:fixed;
+    top:-5px;
     left:0px;
     text-decoration: none;
     font-size:64px;
